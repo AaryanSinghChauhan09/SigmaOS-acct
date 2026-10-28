@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-acct"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Contributors"]
+description = "SigmaOS acct component"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "sigmaos_acct"
+path = "src/lib.rs"
