@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-acct"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "This crate is currently an empty no_std library scaffold. It contains no account database, user/group management, or acct command implementation. The existing test module only checks basic Rust arithmetic and does not validate account functionality."
 upstream = []
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
